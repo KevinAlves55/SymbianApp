@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            style="@style/textTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cadastro de Cliente"/>
+
+        <EditText
+            android:id="@+id/txtNome"
+            style="@style/editTextForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SEU NOME"
+            android:inputType="text" />
+
+        <EditText
+            style="@style/editTextForm"
+            android:id="@+id/txtSobrenome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SEU SOBRENOME"
+            android:inputType="text" />
+
+        <EditText
+            android:id="@+id/txtEmail"
+            style="@style/editTextForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="SEU EMAIL"
+            android:inputType="textEmailAddress" />
+
+        <EditText
+            android:id="@+id/txtCelular"
+            style="@style/editTextForm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="SEU CELULA"/>
+
+        <Button
+            style="@style/butonForm"
+            android:id="@+id/btnCadastrarCliente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CADASTRAR CLIENTE"/>
+
+    </LinearLayout>
+
+</ScrollView>
